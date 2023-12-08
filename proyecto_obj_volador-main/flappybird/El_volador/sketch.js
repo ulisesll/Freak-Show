@@ -18,18 +18,18 @@ let fuente
 
 function preload() {
   // put preload code here
-  imagenFondo = loadImage('./images/fondo.jpg')
-  imagenInicio = loadImage('./images/foondocas.jpg')
-  imagenPersonaje = loadImage('./images/mario.png')
+  imagenFondo = loadImage('./images/circo fondo.jpg')
+  imagenInicio = loadImage('./images/circo fondo.jpg')
+  imagenPersonaje = loadImage('./images/Charlie.png')
   imagenPared = loadImage('./images/tubo.png')
-  musicaRecord = loadSound('./sounds/record1.mp3')
-  musicaFondo = loadSound('./sounds/musicafondo1.mp3')
-  fuente=loadFont('./images/SuperMario256.ttf')
+  musicaRecord = loadSound('./sounds/grito.mp3')
+  musicaFondo = loadSound('./sounds/musicafondo2.mp3')
+  fuente=loadFont('./images/BloodLust.ttf')
 }
 
 function setup() {
   // put setup code here
-  createCanvas(1366,768)
+  createCanvas(1024,768)
   textSize(34)
 }
 
@@ -100,7 +100,7 @@ function draw() {
     textSize(60)
     fill(255,20,50)
   
-    text("!!EL MARIO VOLADOR!!",300,60)
+    text("Freak Show",300,60)
     textSize(45)
     fill(230,230,230)
     text("Haz clic para empezar",400,700)
